@@ -1,0 +1,22 @@
+server:
+  port: 8300
+
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/product_db
+    username: username
+    password: password
+  jpa:
+    database: postgresql
+    properties:
+      hibernate:
+        format_sql: true
+    databasePlatform: org.hibernate.dialect.PostgreSQLDialect
+
+integrations:
+  cart-service:
+    url: http://localhost:8400
+    connect-timeout: 5000
+    read-timeout: 10000
+    write-timeout: 5000

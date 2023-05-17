@@ -1,0 +1,1 @@
+GET localhost:8300/api/v1/find?category=beauty
