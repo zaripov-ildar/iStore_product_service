@@ -21,7 +21,7 @@ This project implements a service of orders and goods using Spring Boot 3.0 and 
 * Orders creating
 * Getting all user orders
 * All endpoints protected by <a href="">gateway server</a> according users roles and authorities
-* Project covered by tests for 97%
+* Project covered by tests for 78% lines and 97% of the remaining classes
 
 ### Technologies
 * Spring Boot 3.0.6
