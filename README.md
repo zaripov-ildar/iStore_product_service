@@ -25,7 +25,9 @@ This project implements a service of orders and goods using Spring Boot 3.0 and 
 
 ### Technologies
 * Spring Boot 3.0.6
-* Spring-boot-starter-webflux for integration with <a href="">cart server</a>
+* Spring-boot-starter-webflux for integration with <a href="https://github.com/zaripov-ildar/iStore_cart_service">cart server</a>
 * Postgres as a main database
 * H2 as a database for test
+* Mockito
+* JUnit5
 * Maven
